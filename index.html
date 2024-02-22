@@ -4,12 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="styles.css">
+<link rel="shortcut icon" href="DICC.png" type="image/x-icon">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 <title>DICC-WORD MEANING FINDER</title>
 </head>
 <body>
   <main>
     <div class="container">
-      <h2>Dicc-knot down the sentences</h2>
+      <div class="headerDiv">
+        <div class="logo">
+          <img src="DICC.png" alt="dicc-logo"/>
+        </div>
+        <h2>Dicc-knot down the sentences</h2>
+      </div>
+      <p style="text-align: center;color: rgb(126, 124, 124);">Paragraph Splitting Dictionary</p>
       <textarea id="inputText" placeholder="Enter your paragraph here..."></textarea>
       <button onclick="findMeanings()">Find Meanings</button>
       <div class="meanings" id="meanings"></div>
